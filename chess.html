@@ -1,0 +1,140 @@
+<html>
+
+<meta charset="UTF-8">
+<title>Marothan Chess</title>
+   <center><head><h1>CHESS</h1></head></center>
+
+	<style type="text/css">
+.chessboard {
+    width: 640px;
+    height: 640px;
+    margin: 20px;
+    border: 25px solid #333;
+}
+.black {
+    float: left;
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    font-size:50px;
+    text-align:center;
+    display: table-cell;
+    vertical-align:middle;
+}
+.white {
+    float: left;
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    font-size:50px;
+    text-align:center;
+    display: table-cell;
+    vertical-align:middle;
+}
+.
+</style>
+</head>
+<body>
+<table>
+<tr>
+<center>
+<script type="text/javascript">
+    function setValue(arg) {
+       document.getElementById('submit').value = arg;
+    }
+    function getValue(arg1) {
+       var x = document.forms["form1"]["form1"].value;
+       document.getElementById('aaa').value = arg1;
+    }
+</script>
+<form id="form1" name="form1" method="post">
+    <p>
+        <label>
+            <input type="text" name="aaa" id="aaa" />
+        </label>
+	<label>
+            <input type="text" name="bbb" id="bbb" />
+        </label>
+	<button id = submit type = 'button' value = '' onclick = getValue(value) >submit</button>
+    </p>
+</form>
+</center></tr>
+<tr>
+<center><div class="chessboard">
+<!-- 1st -->
+<div id =1 class="white" onclick = "setValue(id)"></div>
+<div id =2 class="black" onclick = "setValue(id)"></div>
+<div id =3 class="white" onclick = "setValue(id)"></div>
+<div id =4 class="black" onclick = "setValue(id)"></div>
+<div id =5 class="white" onclick = "setValue(id)"></div>
+<div id =6 class="black" onclick = "setValue(id)"></div>
+<div id =7 class="white" onclick = "setValue(id)"></div>
+<div id =8 class="black" onclick = "setValue(id)"></div>
+<!-- 2nd -->
+<div id =9 class="black" onclick = "setValue(id)"></div>
+<div id =10 class="white" onclick = "setValue(id)"></div>
+<div id =11 class="black" onclick = "setValue(id)"></div>
+<div id =12 class="white" onclick = "setValue(id)"></div>
+<div id =13 class="black" onclick = "setValue(id)"></div>
+<div id =14 class="white" onclick = "setValue(id)"></div>
+<div id =15 class="black" onclick = "setValue(id)"></div>
+<div id =16 class="white" onclick = "setValue(id)"></div>
+<!-- 3th -->
+<div id =17 class="white" onclick = "setValue(id)"></div>
+<div id =18 class="black" onclick = "setValue(id)"></div>
+<div id =19 class="white" onclick = "setValue(id)"></div>
+<div id =20 class="black" onclick = "setValue(id)"></div>
+<div id =21 class="white" onclick = "setValue(id)"></div>
+<div id =22 class="black" onclick = "setValue(id)"></div>
+<div id =23 class="white" onclick = "setValue(id)"></div>
+<div id =24 class="black" onclick = "setValue(id)"></div>
+<!-- 4st -->
+<div id =25 class="black" onclick = "setValue(id)"></div>
+<div id =26 class="white" onclick = "setValue(id)"></div>
+<div id =27 class="black" onclick = "setValue(id)"></div>
+<div id =28 class="white" onclick = "setValue(id)"></div>
+<div id =29 class="black" onclick = "setValue(id)"></div>
+<div id =30 class="white" onclick = "setValue(id)"></div>
+<div id =31 class="black" onclick = "setValue(id)"></div>
+<div id =32 class="white" onclick = "setValue(id)"></div>
+<!-- 5th -->
+<div id =33 class="white" onclick = "setValue(id)"></div>
+<div id =34 class="black" onclick = "setValue(id)"></div>
+<div id =35 class="white" onclick = "setValue(id)"></div>
+<div id =36 class="black" onclick = "setValue(id)"></div>
+<div id =37 class="white" onclick = "setValue(id)"></div>
+<div id =38 class="black" onclick = "setValue(id)"></div>
+<div id =39 class="white" onclick = "setValue(id)"></div>
+<div id =40 class="black" onclick = "setValue(id)"></div>
+<!-- 6th -->
+<div id =41 class="black" onclick = "setValue(id)"></div>
+<div id =42 class="white" onclick = "setValue(id)"></div>
+<div id =43 class="black" onclick = "setValue(id)"></div>
+<div id =44 class="white" onclick = "setValue(id)"></div>
+<div id =45 class="black" onclick = "setValue(id)"></div>
+<div id =46 class="white" onclick = "setValue(id)"></div>
+<div id =47 class="black" onclick = "setValue(id)"></div>
+<div id =48 class="white" onclick = "setValue(id)"></div>
+<!-- 7th -->
+<div id =49 class="white" onclick = "setValue(id)"></div>
+<div id =50 class="black" onclick = "setValue(id)"></div>
+<div id =51 class="white" onclick = "setValue(id)"></div>
+<div id =52 class="black" onclick = "setValue(id)"></div>
+<div id =53 class="white" onclick = "setValue(id)"></div>
+<div id =54 class="black" onclick = "setValue(id)"></div>
+<div id =55 class="white" onclick = "setValue(id)"></div>
+<div id =56 class="black" onclick = "setValue(id)"></div>
+<!-- 8th -->
+<div id =57 class="black" onclick = "setValue(id)"></div>
+<div id =58 class="white" onclick = "setValue(id)"></div>
+<div id =59 class="black" onclick = "setValue(id)"></div>
+<div id =60 class="white" onclick = "setValue(id)"></div>
+<div id =61 class="black" onclick = "setValue(id)"></div>
+<div id =62 class="white" onclick = "setValue(id)"></div>
+<div id =63 class="black" onclick = "setValue(id)"></div>
+<div id =64 class="white" onclick = "setValue(id)"></div>
+</div></center>
+</tr>
+</table>
+</body>
+ </html>
