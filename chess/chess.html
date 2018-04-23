@@ -2,8 +2,7 @@
 
 <meta charset="UTF-8">
 <title>Marothan Chess</title>
-   <center><head><h1>CHESS</h1></head></center>
-
+   <center><head><h1 style="color:white;">CHESS</h1></head></center>
 	<style type="text/css">
 .chessboard {
     width: 640px;
@@ -34,7 +33,7 @@
 .
 </style>
 </head>
-<body>
+<body background="/home/botifai/forwardingModule/js/bgimage/bg1.jpg">
 <table>
 <tr>
 <center>
@@ -43,8 +42,11 @@
        document.getElementById('submit').value = arg;
     }
     function getValue(arg1) {
-       var x = document.forms["form1"]["form1"].value;
+       var x = document.forms["form1"]["submit"].value;
+       var y = document.getElementById("bbb").value;
        document.getElementById('aaa').value = arg1;
+       var cell1 = document.getElementById(arg1);
+       cell1.style.backgroundColor = y;
     }
 </script>
 <form id="form1" name="form1" method="post">
